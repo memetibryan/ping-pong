@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 /*bussiness logic*/
 var pingPong = function(numbe) {
-    if ((numbe % 4 === 0) && (numbe % 100 !== 0) || (numbe % 400 === 0)) {
+    if ((numbe % 3 === 0) && (numbe % 5===0)){
       return true;
     } else {
       return false;
