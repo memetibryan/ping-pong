@@ -12,11 +12,16 @@ is displayed. So basically it's a mathematical-oriented website but in a fun-bas
 3) Open the [link] file:///home/bryan/Documents/projects/pingpong/index.html? using the search engine.
 4) Enter a number to find out whether is a multiple of 3, 5 ,15 or neither of the above.
 
-### AUTHORS.
+### SPECIFICATIONS
+* It can count upto the provided number.
+  - Example input: 2
+  - EXample output:[1,2]
+
+#### AUTHORS.
 
 - Bryan Memeti- /_all the work_/
 
-#### .
+##### LICENSE
 
 MIT License
 
@@ -28,7 +33,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-##### ACKNOWLEDGEMENT
+###### ACKNOWLEDGEMENT
 
 - Google search engine for information availed when in need.
 - Moringa School for providing the platform.
