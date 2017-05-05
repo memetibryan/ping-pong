@@ -1,18 +1,21 @@
-/*user interface logic*/
 $(document).ready(function() {
-  $("form#ping-pong").submit(function(event) {
-      event.preventDefault();
-      var numbe = parseInt($("input#numbe").val());
-      var result = pingPong(numbe);
-      $("#result").text(result);
-    });
-});
+  $("form#formInput").submit(function(event) {
+    $("ul").empty();
+    var number = parseInt($("input#ping").val());
 
-/*bussiness logic*/
-var pingPong = function(numbe) {
-    if ((numbe % 3 === 0) && (numbe % 5===0)){
-      return true;
+    for (m = 1; m <= number; m++)
+      if (m % 3 === 0 && m % 5 === 0) {
+        $("ul").append("<li>pingpong</li>");
+
+      } else if (m % 3 === 0) {
+      $("ul").append("<li>ping</li>");
+
+    } else if (m % 5 === 0) {
+      $("ul").append("<li>pong</li>");
+
     } else {
-      return false;
+      $("ul").append("<li>" + m + "</li>");
     }
-  };
+    event.preventDefault();
+  });
+});
